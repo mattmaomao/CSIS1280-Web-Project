@@ -4,6 +4,9 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  min-height: 100vh;
+}
 
 /* header */
 .banner {
@@ -66,4 +69,19 @@ body {
     border: none;
     border-bottom: 1px solid white;
   }
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  color: white;
+  margin-top: 8px;
+  padding: 8px;
+
+  /* footer stay at bottom */
+  position: sticky;
+  top: 100vh;
+}
+.footer p {
+  margin: 0 8px;
 }
