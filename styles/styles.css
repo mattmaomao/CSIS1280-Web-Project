@@ -5,8 +5,9 @@ body {
   box-sizing: border-box;
 }
 
+/* header */
 .banner {
-  background-color: #F26F21;
+  background-color: #f26f21;
   color: black;
   padding: 32px 0;
   text-align: center;
@@ -14,4 +15,55 @@ body {
 .banner h1 {
   font-size: 3rem;
   margin: 0;
+}
+
+/* nav bar */
+.nav-bar {
+  background-color: black;
+  color: white;
+  padding: 12px 0;
+  text-align: center;
+}
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+.nav-btn {
+  text-decoration: none;
+  background-color: #b8541a;
+  color: white;
+  padding: 8px 64px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  font-size: 1.2rem;
+}
+.nav-btn:hover {
+  background-color: #f26f21;
+  color: black;
+}
+@media screen and (max-width: 932px) {
+  .nav-bar ul {
+    gap: 16px;
+  }
+  .nav-btn {
+    padding: 8px 16px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .nav-btn {
+    padding: 2px 4px;
+    border: none;
+    border-bottom: 1px solid white;
+  }
 }
