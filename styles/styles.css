@@ -5,13 +5,14 @@ body {
   box-sizing: border-box;
 }
 body {
+  background-color: #eee;
   min-height: 100vh;
 }
 
 /* header */
 .banner {
   background-color: #f26f21;
-  color: black;
+  color: #222;
   padding: 32px 0;
   text-align: center;
 }
@@ -22,8 +23,8 @@ body {
 
 /* nav bar */
 .nav-bar {
-  background-color: black;
-  color: white;
+  background-color: #222;
+  color: #eee;
   padding: 12px 0;
   text-align: center;
 }
@@ -38,15 +39,15 @@ body {
 .nav-btn {
   text-decoration: none;
   background-color: #b8541a;
-  color: white;
+  color: #eee;
   padding: 8px 64px;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
   font-size: 1.2rem;
 }
 .nav-btn:hover {
   background-color: #f26f21;
-  color: black;
+  color: #222;
 }
 @media screen and (max-width: 932px) {
   .nav-bar ul {
@@ -54,8 +55,8 @@ body {
   }
   .nav-btn {
     padding: 8px 16px;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
     font-size: 1.2em;
   }
 }
@@ -67,14 +68,14 @@ body {
   .nav-btn {
     padding: 2px 4px;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #eee;
   }
 }
 
 /* footer */
 .footer {
-  background-color: black;
-  color: white;
+  background-color: #222;
+  color: #eee;
   margin-top: 8px;
   padding: 8px;
 
