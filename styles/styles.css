@@ -1,0 +1,88 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+/* header */
+.banner {
+  background-color: #f26f21;
+  color: #222;
+  padding: 32px 0;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* nav bar */
+.nav-bar {
+  background-color: #222;
+  color: #eee;
+  padding: 12px 0;
+  text-align: center;
+}
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+.nav-btn {
+  text-decoration: none;
+  background-color: #b8541a;
+  color: #eee;
+  padding: 8px 64px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  font-size: 1.2rem;
+}
+.nav-btn:hover {
+  background-color: #f26f21;
+  color: #222;
+}
+@media screen and (max-width: 932px) {
+  .nav-bar ul {
+    gap: 16px;
+  }
+  .nav-btn {
+    padding: 8px 16px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav-bar ul {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .nav-btn {
+    padding: 2px 4px;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+/* footer */
+.footer {
+  background-color: #222;
+  color: #eee;
+  margin-top: 8px;
+  padding: 8px;
+
+  /* footer stay at bottom */
+  position: sticky;
+  top: 100vh;
+}
+.footer p {
+  margin: 0 8px;
+}

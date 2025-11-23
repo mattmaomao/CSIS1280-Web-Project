@@ -4,12 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>The NBA Website</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="banner">
+        <h1>NBA Website</h1>
+    </header>
 
+    <!-- Nav -->
+    <nav class="nav-bar">
+        <ul>
+            <li><a class="nav-btn" href="index.html">Home</a></li>
+            <li><a class="nav-btn" href="./pages/teams.html">Teams</a></li>
+            <li><a class="nav-btn" href="./pages/players.html">Players</a></li>
+            <li><a class="nav-btn" href="./pages/championship.html">Championship</a></li>
+        </ul>
+    </nav>
+
+    <!-- About -->
+    <section class="about">
+        <h2>About the NBA</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt odio aliquam corrupti incidunt omnis odit
+            officiis nobis optio. Sunt temporibus ipsa voluptates quae aliquid suscipit culpa, placeat natus impedit. Id
+            neque, delectus reiciendis tempora magnam sed obcaecati nobis porro dolorem alias ratione explicabo quasi
+            impedit soluta? Aspernatur quae impedit eum.
+        </p>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum est magni minima quia voluptatibus
+            perspiciatis vitae, iste autem dignissimos maiores sequi, labore fugit suscipit rem provident, assumenda
+            nesciunt ut! Facilis modi officia reiciendis, animi, nobis magni eius beatae minus ex, voluptas nulla.
+            Praesentium numquam ipsam hic tempora sequi molestias delectus!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; Matthew, Stacy, Kuiyou</p>
+    </footer>
 </body>
 
 </html>
