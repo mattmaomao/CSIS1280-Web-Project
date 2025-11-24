@@ -1,0 +1,50 @@
+#heading{
+    text-align: center;
+}
+#legend-buttons button {
+    margin: 5px 10px;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+#current-buttons button {
+    margin: 5px 10px;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+.legendplayers, #starplayers button{
+    padding: 0 20px;
+    font-weight: bold;
+}
+h2{
+    padding:0.5em;
+}
+.name{
+    padding: 0.5em;
+    text-align: center;
+    font-size: larger;
+}
+h4{
+    padding: 5px;
+    text-decoration: underline;
+}
+.content{
+    padding: 0.5em;
+}
+iframe {
+    display: block;
+    margin: 20px auto;   
+}
+.videodescription{
+    padding: 0 0.5em;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
