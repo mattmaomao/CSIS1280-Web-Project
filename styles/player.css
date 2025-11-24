@@ -17,7 +17,7 @@ body{
     border-radius: 5px;
     font-size: 1.2em;
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: rgb(177, 205, 230);
 
 }
 #current-buttons button {
@@ -27,7 +27,7 @@ body{
     border-radius: 5px;
     font-size: 1.2em;
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: rgb(177, 205, 230);
 }
 .legendplayers, #starplayers button{
     padding: 0 20px;
