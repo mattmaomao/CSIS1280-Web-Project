@@ -1,24 +1,31 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #heading{
     text-align: center;
+    background-color: rgb(168, 122, 76);
+    margin: 0;
+    padding: 20px 0;
 }
 #legend-buttons button {
-    margin: 5px 10px;
+    margin: 20px 15px;
     padding: 8px 16px;
     border: 2px solid black;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     background-color: aliceblue;
+
 }
 #current-buttons button {
-    margin: 5px 10px;
+    margin: 20px 10px;
     padding: 8px 16px;
     border: 2px solid black;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     background-color: aliceblue;
 }
@@ -26,17 +33,21 @@ body{
     padding: 0 20px;
     font-weight: bold;
 }
-h2{
-    padding:0.5em;
+h3{
+    background-color: #f2c14e;
+    padding: 8px 16px;
+    font-size: 2em;
+    margin: 0;
+    font-style: italic;
 }
 .name{
     padding: 0.5em;
     text-align: center;
     font-size: larger;
+    color: rgb(2, 38, 38);
 }
 h4{
-    padding: 5px;
-    text-decoration: underline;
+    padding: 7px;
     color: darkgray;
 }
 .content{
@@ -62,4 +73,7 @@ iframe {
 }
 figcaption{
     text-align: center;
+}
+li{
+    text-decoration: underline;
 }
