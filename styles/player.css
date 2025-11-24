@@ -37,6 +37,7 @@ h2{
 h4{
     padding: 5px;
     text-decoration: underline;
+    color: darkgray;
 }
 .content{
     padding: 0.5em;
@@ -50,4 +51,15 @@ iframe {
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
+}
+.picture{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid rgb(75, 75, 188);
+}
+figcaption{
+    text-align: center;
 }
