@@ -1,0 +1,75 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#heading {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+#historic-buttons button,
+#recent-buttons button {
+    margin: 5px 10px;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+h2 {
+    padding: 0.5em;
+}
+
+.champ-name {
+    padding: 0.5em;
+    text-align: center;
+    font-size: larger;
+}
+
+.champ-content {
+    padding: 0.5em;
+}
+
+.champ-info {
+    margin: 1em auto;
+    max-width: 900px;
+    border: 2px solid #ccc;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #f9f9ff;
+}
+
+.champ-info h4 {
+    padding: 5px;
+    text-decoration: underline;
+    color: darkgray;
+}
+
+.champ-picture {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 5px solid rgb(75, 75, 188);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.videodescription {
+    padding: 0 0.5em;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}

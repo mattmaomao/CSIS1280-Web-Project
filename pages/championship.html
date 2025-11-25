@@ -4,12 +4,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Championship</title>
+    <title>Championships</title>
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/championship.css">
+    <script src="../scripts/championship.js" defer></script>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
+    <header class="banner">
+        <h1>NBA Website</h1>
+    </header>
 
+    <nav class="nav-bar">
+        <ul>
+            <li><a class="nav-btn" href="../index.html">Home</a></li>
+            <li><a class="nav-btn" href="./teams.html">Teams</a></li>
+            <li><a class="nav-btn" href="./players.html">Players</a></li>
+            <li><a class="nav-btn" href="./championship.html">Championship</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 id="heading">NBA Championships</h1>
+
+        <div id="historic-buttons">
+            <h2>Historic Finals</h2>
+            <button id="btn1991" class="champ-btn">1991 Bulls vs Lakers</button>
+            <button id="btn2000" class="champ-btn">2000 Lakers vs Pacers</button>
+            <button id="btn2013" class="champ-btn">2013 Heat vs Spurs</button>
+        </div>
+
+        <div id="recent-buttons">
+            <h2>Recent Finals</h2>
+            <button id="btn2016" class="champ-btn">2016 Cavs vs Warriors</button>
+            <button id="btn2019" class="champ-btn">2019 Raptors vs Warriors</button>
+            <button id="btn2024" class="champ-btn">2024 Celtics vs Mavericks</button>
+        </div>
+
+        <section>
+            <!-- 1991 Finals -->
+            <div id="c1991" class="champ-info">
+                <p class="champ-name"><strong>1991 NBA Finals - Chicago Bulls vs Los Angeles Lakers</strong></p>
+                <figure>
+                    <img class="champ-picture" src="../images/1991finals.jpg" alt="1991 NBA Finals Bulls vs Lakers">
+                    <figcaption>
+                        1991 NBA Finals
+                        <a href="https://www.basketball-reference.com/playoffs/1991-nba-finals-lakers-vs-bulls.html" target="_blank">
+                            (From: NBA.com - 1991 Finals Recap)
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <h4>Series Summary:</h4>
+                <ul>
+                    <li><strong>Year:</strong> 1991</li>
+                    <li><strong>Champion:</strong> Chicago Bulls</li>
+                    <li><strong>Runner-up:</strong> Los Angeles Lakers</li>
+                    <li><strong>Series Result:</strong> 4-1 (Bulls win)</li>
+                    <li><strong>Finals MVP:</strong> Michael Jordan</li>
+                </ul>
+
+                <h4>Why It's Historic:</h4>
+                <p class="champ-content">
+                    This series marked Michael Jordan's first NBA championship and the beginning of the Bulls' 1990s
+                    dynasty. Chicago overcame the veteran Lakers and officially took over as the new dominant team.
+                </p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lyJ6GyC4Yng?si=3RiEWOX47dq4wMh7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="videodescription">1991 NBA Finals Bulls vs Lakers Highlights</p>
+            </div>
+
+            <!-- 2000 Finals -->
+            <div id="c2000" class="champ-info">
+                <p class="champ-name"><strong>2000 NBA Finals - Los Angeles Lakers vs Indiana Pacers</strong></p>
+                <figure>
+                    <img class="champ-picture" src="../images/2000finals.jpg" alt="2000 NBA Finals Lakers vs Pacers">
+                    <figcaption>
+                        2000 NBA Finals
+                        <a href="https://www.basketball-reference.com/playoffs/2000-nba-finals-pacers-vs-lakers.html" target="_blank">
+                            (From: NBA.com - 2000 Finals Recap)
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <h4>Series Summary:</h4>
+                <ul>
+                    <li><strong>Year:</strong> 2000</li>
+                    <li><strong>Champion:</strong> Los Angeles Lakers</li>
+                    <li><strong>Runner-up:</strong> Indiana Pacers</li>
+                    <li><strong>Series Result:</strong> 4-2 (Lakers win)</li>
+                    <li><strong>Finals MVP:</strong> Shaquille O'Neal</li>
+                </ul>
+
+                <h4>Why It's Historic:</h4>
+                <p class="champ-content">
+                    This was the first title of the Shaq-Kobe era in Los Angeles. Shaq dominated inside, and this
+                    championship started a three-peat that defined early-2000s basketball.
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Vy6LSSslMCE?si=k_lmoC7XDwCYpdUL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="videodescription">2000 NBA Finals Lakers vs Pacers Highlights</p>
+            </div>
+
+            <!-- 2013 Finals -->
+            <div id="c2013" class="champ-info">
+                <p class="champ-name"><strong>2013 NBA Finals - Miami Heat vs San Antonio Spurs</strong></p>
+                <figure>
+                    <img class="champ-picture" src="../images/2013finals.jpg" alt="2013 NBA Finals Heat vs Spurs">
+                    <figcaption>
+                        2013 NBA Finals
+                        <a href="https://www.basketball-reference.com/playoffs/2013-nba-finals-spurs-vs-heat.html" target="_blank">
+                            (From: NBA.com - 2013 Finals Recap)
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <h4>Series Summary:</h4>
+                <ul>
+                    <li><strong>Year:</strong> 2013</li>
+                    <li><strong>Champion:</strong> Miami Heat</li>
+                    <li><strong>Runner-up:</strong> San Antonio Spurs</li>
+                    <li><strong>Series Result:</strong> 4-3 (Heat win)</li>
+                    <li><strong>Finals MVP:</strong> LeBron James</li>
+                </ul>
+
+                <h4>Why It's Historic:</h4>
+                <p class="champ-content">
+                    Famous for Ray Allen's clutch three in Game 6, this series is considered one of the greatest NBA
+                    Finals ever, with elite performances from both teams and a dramatic seven-game battle.
+                </p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3P1Q0hiZ6tM?si=f1zUHCoYozISHdMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="videodescription">2013 NBA Finals Heat vs Spurs Highlights</p>
+            </div>
+
+            <!-- 2016 Finals -->
+            <div id="c2016" class="champ-info">
+                <p class="champ-name"><strong>2016 NBA Finals - Cleveland Cavaliers vs Golden State Warriors</strong></p>
+                <figure>
+                    <img class="champ-picture" src="../images/2016finals.jpg" alt="2016 NBA Finals Cavs vs Warriors">
+                    <figcaption>
+                        2016 NBA Finals
+                        <a href="https://www.basketball-reference.com/playoffs/2016-nba-finals-cavaliers-vs-warriors.html" target="_blank">
+                            (From: NBA.com - 2016 Finals Recap)
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <h4>Series Summary:</h4>
+                <ul>
+                    <li><strong>Year:</strong> 2016</li>
+                    <li><strong>Champion:</strong> Cleveland Cavaliers</li>
+                    <li><strong>Runner-up:</strong> Golden State Warriors</li>
+                    <li><strong>Series Result:</strong> 4-3 (Cavs win, came back from 3-1)</li>
+                    <li><strong>Finals MVP:</strong> LeBron James</li>
+                </ul>
+
+                <h4>Why It's Historic:</h4>
+                <p class="champ-content">
+                    The Cavaliers became the first team in NBA Finals history to come back from a 3-1 deficit. LeBron
+                    James' chase-down block and Kyrie Irving's clutch three are iconic moments.
+                </p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oFP83xQaG0A?si=nVHpCi2jMRUontSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="videodescription">2016 NBA Finals Cavs vs Warriors Game 7 Highlights</p>
+            </div>
+
+            <!-- 2019 Finals -->
+            <div id="c2019" class="champ-info">
+                <p class="champ-name"><strong>2019 NBA Finals - Toronto Raptors vs Golden State Warriors</strong></p>
+                <figure>
+                    <img class="champ-picture" src="../images/2019finals.jpg" alt="2019 NBA Finals Raptors vs Warriors">
+                    <figcaption>
+                        2019 NBA Finals
+                        <a href="https://www.basketball-reference.com/playoffs/2019-nba-finals-warriors-vs-raptors.html" target="_blank">
+                            (From: NBA.com - 2019 Finals Recap)
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <h4>Series Summary:</h4>
+                <ul>
+                    <li><strong>Year:</strong> 2019</li>
+                    <li><strong>Champion:</strong> Toronto Raptors</li>
+                    <li><strong>Runner-up:</strong> Golden State Warriors</li>
+                    <li><strong>Series Result:</strong> 4-2 (Raptors win)</li>
+                    <li><strong>Finals MVP:</strong> Kawhi Leonard</li>
+                </ul>
+
+                <h4>Why It's Historic:</h4>
+                <p class="champ-content">
+                    This was the first NBA championship in Toronto Raptors franchise history and a huge moment for
+                    Canadian basketball. Kawhi Leonard delivered one of the best playoff runs ever.
+                </p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QtUSe8lslqk?si=APMWawtC89BgFyB9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="videodescription">2019 NBA Finals Raptors vs Warriors Highlights</p>
+            </div>
+
+            <!-- 2024 Finals -->
+            <div id="c2024" class="champ-info">
+                <p class="champ-name"><strong>2024 NBA Finals - Boston Celtics vs Dallas Mavericks</strong></p>
+                <figure>
+                    <img class="champ-picture" src="../images/2024finals.jpg" alt="2024 NBA Finals Celtics vs Mavericks">
+                    <figcaption>
+                        2024 NBA Finals
+                        <a href="https://www.basketball-reference.com/playoffs/2024-nba-finals-mavericks-vs-celtics.html" target="_blank">
+                            (From: NBA.com - 2024 Finals Recap)
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <h4>Series Summary:</h4>
+                <ul>
+                    <li><strong>Year:</strong> 2024</li>
+                    <li><strong>Champion:</strong> Boston Celtics</li>
+                    <li><strong>Runner-up:</strong> Dallas Mavericks</li>
+                    <li><strong>Series Result:</strong> 4-1 (Celtics win)</li>
+                    <li><strong>Finals MVP:</strong> Jayson Tatum (or Jaylen Brown depending on your info)</li>
+                </ul>
+
+                <h4>Why It's Historic:</h4>
+                <p class="champ-content">
+                    The title added to the Celtics' record championship count and confirmed their young core as true
+                    contenders. It also showed how modern spacing and defense can dominate the league.
+                </p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ogz598CG_cc?si=-u2Ykq4GWjlk4REd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p class="videodescription">2024 NBA Finals Celtics vs Mavericks Highlights</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Information came from ChatGPT &copy; Kuiyou Dong</p>
+    </footer>
 </body>
 
 </html>
