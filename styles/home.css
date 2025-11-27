@@ -1,6 +1,45 @@
 /* About */
 .about {
   margin: 8px 10%;
+  line-height: 1.5em;
+}
+
+#about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 1fr 1fr;
+}
+#about-container p {
+  flex: 2;
+}
+
+#nba {
+  font-weight: bold;
+  color: #b8541a;
+}
+#page-redirect {
+  color: #f26f21;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#balls {
+  flex: 1;
+  margin: 16px;
+}
+#balls img {
+  width: 100%;
+  height: auto;
+}
+#balls figcaption {
+  text-align: center;
+  font-style: italic;
+}
+@media screen and (max-width: 768px) {
+  #about-container {
+    flex-direction: row;
+  }
 }
 
 /* Contact */
