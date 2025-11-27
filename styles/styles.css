@@ -12,7 +12,11 @@ body {
 /* header */
 .banner {
   background-color: #f26f21;
-  color: #222;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #eee;
+  text-shadow: #222 2px 2px 2px;
   padding: 32px 0;
   text-align: center;
 }
