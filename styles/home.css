@@ -3,12 +3,16 @@
   margin: 8px 10%;
   line-height: 1.5em;
 }
+.about > h2 {
+  text-align: center;
+  color: #f26f21;
+  text-shadow: black 2px 2px 2px;
+}
 
 #about-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  flex: 1fr 1fr;
 }
 #about-container p {
   flex: 2;
@@ -27,6 +31,7 @@
 #balls {
   flex: 1;
   margin: 16px;
+  text-align: center;
 }
 #balls img {
   width: 100%;
@@ -36,13 +41,32 @@
   text-align: center;
   font-style: italic;
 }
-@media screen and (max-width: 768px) {
-  #about-container {
-    flex-direction: row;
-  }
+
+/* Contact Us */
+.contact-us {
+  padding: 16px;
+  margin: 8px 10%;
+  line-height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #b8541a, #222);
+}
+#form-container {
+  flex: 1;
+}
+#review {
+  flex: 1;
+  color: #eee;
 }
 
-/* Contact */
-.contact {
-  margin: 8px 10%;
+@media screen and (max-width: 768px) {
+  #about-container,
+  .contact-us {
+    flex-direction: column;
+  }
+  #balls img {
+    width: 50%;
+    height: auto;
+  }
 }
