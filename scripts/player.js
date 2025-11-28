@@ -58,7 +58,7 @@ function displayPlayerLJ(){
 let btnLSC =document.getElementById("btnSC");
 btnSC.addEventListener("click", displayPlayerSC);
 function displayPlayerSC(){
-    showPlayer("LJ");
+    showPlayer("SC");
 }
 let btnLGA =document.getElementById("btnGA");
 btnGA.addEventListener("click", displayPlayerGA);
