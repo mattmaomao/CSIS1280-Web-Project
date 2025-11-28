@@ -135,7 +135,11 @@ button a:visited{
 }
 .footer{
     margin-top: 0;
-    text-align: center;
+}
+.footer p,
+.footer ol {
+    font-size: small;
+    margin: 0;
 }
 #placeholder{
     max-width: 60%;
