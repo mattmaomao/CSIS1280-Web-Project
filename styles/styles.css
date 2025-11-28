@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
 }
 body {
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #eee;
   min-height: 100vh;
 }
@@ -89,4 +90,7 @@ body {
 }
 .footer p {
   margin: 0 8px;
+}
+.footer a {
+  color: #f26f21;
 }
