@@ -1,0 +1,31 @@
+.sub-header {
+  text-align: center;
+  margin: 16px 0;
+  font-size: 2em;
+}
+.container {
+  margin: 8px 10%;
+}
+
+/* table */
+#standing-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  border: 4px solid #333;
+  caption-side: bottom;
+}
+#standing-table caption {
+  font-size: 1em;
+  margin: 8px 0;
+}
+#standing-table th,
+#standing-table td {
+  border: 2px solid #333;
+  padding: 8px;
+}
+.conference,
+.division {
+  font-weight: bold;
+  text-align: center;
+}
