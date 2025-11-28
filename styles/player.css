@@ -41,6 +41,7 @@ aside{
     font-size: 0.95em;
     font-weight: bold;
     background-color: #dde8f4;
+    cursor: pointer;
 }
 #current-buttons button {
     margin: 20px 10px;
@@ -50,6 +51,7 @@ aside{
     font-size: 0.95em;
     font-weight: bold;
     background-color: #dde8f4;
+    cursor: pointer;
 }
 .legendplayers, #starplayers button{
     padding: 0 20px;
