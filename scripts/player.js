@@ -22,49 +22,60 @@ btnMJ.addEventListener("click", showPlayerMJ);
 function showPlayerMJ(){
     showPlayer("MJ");
 }
-
 let btnKB=document.getElementById("btnKB");
 btnKB.addEventListener("click", showPlayerKB);
 function showPlayerKB(){
     showPlayer("KB")
 }
-
-document.getElementById("btnMagic").addEventListener("click", function () {
+let btnMAgic =document.getElementById("btnMagic");
+btnMagic.addEventListener("click",dislayPlayerMagic);
+function dislayPlayerMagic(){
     showPlayer("Magic");
-});
-
-document.getElementById("btnLB").addEventListener("click", function () {
+}
+let btnLB=document.getElementById("btnLB");
+btnLB.addEventListener("click", displayPlayerLB);
+function displayPlayerLB(){
     showPlayer("LB");
-});
-
-document.getElementById("btnTD").addEventListener("click", function () {
+}
+let btnTD =document.getElementById("btnTD");
+btnTD.addEventListener("click", displayPlayerTD);
+function displayPlayerTD(){
     showPlayer("TD");
-});
-
-document.getElementById("btnDW").addEventListener("click", function () {
+}
+let btnDW =document.getElementById("btnDW");
+btnDW.addEventListener("click", displayPlayerDW);
+function displayPlayerDW(){
     showPlayer("DW");
-});
+}
+
 
 // Current Star Players
-document.getElementById("btnLJ").addEventListener("click", function () {
+let btnLJ =document.getElementById("btnLJ");
+btnLJ.addEventListener("click", displayPlayerLJ);
+function displayPlayerLJ(){
     showPlayer("LJ");
-});
-
-document.getElementById("btnSC").addEventListener("click", function () {
-    showPlayer("SC");
-});
-
-document.getElementById("btnGA").addEventListener("click", function () {
+}
+let btnLSC =document.getElementById("btnSC");
+btnSC.addEventListener("click", displayPlayerSC);
+function displayPlayerSC(){
+    showPlayer("LJ");
+}
+let btnLGA =document.getElementById("btnGA");
+btnGA.addEventListener("click", displayPlayerGA);
+function displayPlayerGA(){
     showPlayer("GA");
-});
-
-document.getElementById("btnNJ").addEventListener("click", function () {
+}
+let btnLNJ =document.getElementById("btnNJ");
+btnNJ.addEventListener("click", displayPlayerNJ);
+function displayPlayerNJ(){
     showPlayer("NJ");
-});
-
-document.getElementById("btnLD").addEventListener("click", function () {
+}
+let btnLD =document.getElementById("btnLD");
+btnLD.addEventListener("click", displayPlayerLD);
+function displayPlayerLD(){
     showPlayer("LD");
-});
+}
+
 
 const players = [
     { name: "Michael Jordan", image: "../images/MJ.png",section: "MJ" },
