@@ -24,26 +24,30 @@
             <li><a class="nav-btn" href="./championship.html">Championship</a></li>
         </ul>
     </nav>
-
+    <h2 id="heading"> Welcome to the NBA Players Page</h2>
+<div id="wrapper">
+    <main>
     <div id="legend-buttons">
-        <h1 id="heading">NBA Players</h1>
-        <h3>Retired Legends</h3>
+        <h3 id="mainheading">Retired Legends</h3>
         <button id="btnMJ" class="legendplayers"><a href="#text">Michael Jordan</a></button> 
-        <button id="btnKB" class="legendplayers"><a href="#text">Kobe Bryant</a></button> <br>
+        <button id="btnKB" class="legendplayers"><a href="#text">Kobe Bryant</a></button> 
         <button id="btnMagic" class="legendplayers"><a href="#text">Magic Johnson</a></button> 
-        <button id="btnLB" class="legendplayers"><a href="#text">Larry Bird</a></button> <br>
+        <button id="btnLB" class="legendplayers"><a href="#text">Larry Bird</a></button> 
         <button id="btnTD" class="legendplayers"><a href="#text">Tim Duncan</a></button> 
-        <button id="btnDW" class="legendplayers"><a href="#text">Dwyane Wade</a></button> <br>
+        <button id="btnDW" class="legendplayers"><a href="#text">Dwyane Wade</a></button> 
    </div>
     <div id="current-buttons">
-        <h3>Current Star Players</h3>
+        <h3 id="mainheading">Current Star Players</h3>
         <button id="btnLJ" class="starplayers"><a href="#text2">LeBron James</a></button> 
-        <button id="btnSC" class="starplayers"><a href="#text2">Stephen Curry</button> <br>
+        <button id="btnSC" class="starplayers"><a href="#text2">Stephen Curry</a></button> 
         <button id="btnGA" class="starplayers"><a href="#text2">Giannis Antetokounmpo</a></button> 
         <button id="btnNJ" class="starplayers"><a href="#text2">Nikola Jokić</a></button> 
-        <button id="btnLD" class="starplayers"><a href="#text2">Luka Dončić</a></button> <br>
-   </div>  
-    <section id="text">
+        <button id="btnLD" class="starplayers"><a href="#text2">Luka Dončić</a></button> 
+   </div> 
+   <div id="placeholder"> 
+   <p> &#128073 Please select a player from the buttons above <br> and their profile and video will appear below <br> Or you can click random button on the right hand side to pick for you &#128072</p>
+   </div> 
+   <section id="text">
         <div id="MJ" class="player-info">
             <p class="name"><strong>Michael Jordon</strong></p>
             <figure>
@@ -209,7 +213,7 @@
         <figure>
             <img class="picture" src="../images/LJ.jpg" alt="The picture of LeBron James">
         <figcaption>LeBron James
-            <a href="https://www.bbc.com/sport/basketball/articles/cgj6gz2j69xo">(From: BBC Sport – article on Giannis Antetokounmpo)</a>        
+            <a href="https://www.bbc.com/sport/basketball/articles/cgj6gz2j69xo">(From: James returns in Lakers' win against Memphis)</a>        
         </figcaption>
         </figure>
         <h4>Brief Introduction:</h4>
@@ -330,10 +334,19 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/OqUQk2FtE38?si=JblgaOZIF9Pi5MTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p class="videodescription">Video: Luka Doncic Top 10 Plays of Rookie Season</p>
     </div>
-
+    </main>
     </section>
+    <aside>
+        <h3>Random Pick Player</h3>
+        <figure id="randomArea">
+        <img id="randomPic" class="picture" src="../images/basketball.jpg">
+        <figcaption id="randomCaption"></figcaption> <br>
+        <button id="btnrandom">Random</button>
+        </figure>
+    </aside>
+</div>
 <footer class="footer">
-    <p>Information came from ChatGPT &copy; Stacy Huang </p>
+    <p>Information came from ChatGPT & Images came from the Websites &copy; Stacy Huang </p>
 </footer>
 
 </body>
