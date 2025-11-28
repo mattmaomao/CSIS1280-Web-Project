@@ -55,7 +55,7 @@ aside{
     padding: 0 20px;
     font-weight: bold;
 }
-#mainheading{
+#mainheading, #mainheading2{
     background-color: #cfc7bf;   
     color: #3a3531;    
     padding: 8px 16px;
