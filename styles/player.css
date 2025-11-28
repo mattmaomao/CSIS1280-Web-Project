@@ -1,12 +1,6 @@
 *{
     box-sizing: border-box;
 }
-html, body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;            
@@ -114,8 +108,9 @@ iframe {
 figcaption{
     text-align: center;
 }
-li{
-    text-decoration: underline;
+li.sub{
+    list-style-type: none;
+    padding-left: 10px;
 }
 button a {
     text-decoration: none;
