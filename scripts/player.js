@@ -95,6 +95,7 @@ const players = [
 let btnRandom = document.getElementById("btnrandom");
 let randomPic = document.getElementById("randomPic");
 let randomCaption = document.getElementById("randomCaption");
+let drumRoll=document.getElementById("drumRoll");
 
 
 function getRandomPlayer(playerArray) {
@@ -102,11 +103,19 @@ function getRandomPlayer(playerArray) {
 }
 
 btnRandom.addEventListener("click", DisplayRandomPlayer);
-    
+
 function DisplayRandomPlayer() {
+
+    drumRoll.currentTime = 3;
+    drumRoll.play();
+
+    setTimeout(showRandomPlayer, 2000);  
+}
+
+function showRandomPlayer() {
     let picked = getRandomPlayer(players);
     randomPic.src = picked.image;
     randomCaption.textContent = picked.name;
-
+    
     showPlayer(picked.section);
 }
