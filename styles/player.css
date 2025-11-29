@@ -139,6 +139,7 @@ button a:visited{
 .footer ol {
     font-size: small;
     margin: 0;
+    color: #999;
 }
 #placeholder{
     max-width: 60%;
