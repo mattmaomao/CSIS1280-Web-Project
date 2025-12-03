@@ -132,15 +132,7 @@ button a:visited{
 #current-buttons button:hover {
     background-color: #c5d6ec;       
 }
-.footer{
-    margin-top: 0;
-}
-.footer p,
-.footer ol {
-    font-size: small;
-    margin: 0;
-    color: #999;
-}
+
 #placeholder{
     max-width: 60%;
     line-height: 1.4;

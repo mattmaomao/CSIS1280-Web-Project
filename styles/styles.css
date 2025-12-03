@@ -54,7 +54,7 @@ body {
   background-color: #f26f21;
   color: #222;
 }
-@media screen and (max-width: 932px) {
+@media screen and (max-width: 1200px) {
   .nav-bar ul {
     gap: 16px;
   }
@@ -83,14 +83,18 @@ body {
   color: #eee;
   margin-top: 8px;
   padding: 8px;
+  margin-top: 0;
 
   /* footer stay at bottom */
   position: sticky;
   top: 100vh;
 }
-.footer p {
-  margin: 0 8px;
-}
 .footer a {
   color: #f26f21;
+}
+.footer p,
+.footer ol {
+    font-size: small;
+    margin: 0 8px;
+    color: #999;
 }

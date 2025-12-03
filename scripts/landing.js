@@ -3,11 +3,20 @@ let review = document.getElementById("review");
 
 btn.addEventListener("click", () => {
   let fName = document.getElementById("fName").value;
-  if (!fName) alert("Please enter first name.");
+  if (!fName) {
+    alert("Please enter first name.");
+    return;
+  }
   let lName = document.getElementById("lName").value;
-  if (!lName) alert("Please enter last name.");
+  if (!lName) {
+    alert("Please enter last name.");
+    return;
+  }
   let email = document.getElementById("email").value;
-  if (!email) alert("Please enter email.");
+  if (!email) {
+    alert("Please enter email.");
+    return;
+  }
   let subscribe = document.getElementById("subscribe").checked;
   let starOptions = document.getElementsByName("star");
   let selectedStar;

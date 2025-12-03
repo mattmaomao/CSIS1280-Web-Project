@@ -22,7 +22,7 @@
   font-weight: bold;
   color: #b8541a;
 }
-#page-redirect {
+.page-redirect {
   color: #f26f21;
   text-decoration: underline;
   cursor: pointer;
